@@ -1,2 +1,2 @@
 #!/bin/bash
-export TRUEKNOWLEDGE="1337\n" | cat -e
+export TRUEKNOWLEDGE="1337\n" | echo -e $TRUEKNOWLEDGE
