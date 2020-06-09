@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$(([[:lower:]] ** 2 -1))" | grep -v "oo" | wc -l |tail -303 | head-10
